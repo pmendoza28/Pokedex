@@ -1,0 +1,23 @@
+.Layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    .header {
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      background-color: gray;
+      .title {
+        font-weight: 400;
+        color: white;
+        margin-left: 20px;
+      }
+    }
+    .outlet {
+      background-color: lightgray;
+      padding: 40px 30px 0px;
+      min-height: calc(100vh - 90px);
+    }
+  }
